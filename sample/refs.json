@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "bad_name_code": "E_BAD_NAME",
+  "dup_def_code": "E_DUP_DEF",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "defs": [], "resolved": [], "pending": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "use", "name": "a" },
+    { "id": 2, "kind": "def", "name": "a" },
+    { "id": 3, "kind": "use", "name": "b" },
+    { "id": 4, "kind": "def", "name": "b" },
+    { "id": 5, "kind": "use", "name": "c" }
+  ]
+}
